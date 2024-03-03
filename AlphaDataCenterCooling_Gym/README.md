@@ -1,7 +1,7 @@
 # AlphaDataCenterCooling-Gym
-AlphaDataCenterCooling-Gym is the  [Farama-Foundation Gymnasium](https://gymnasium.farama.org/) (formerly OpenAI-Gym ）environment for the AlphaDataCenterCooling Docker environment.
-It adapts the RESTful API from AlphaDataCenterCooling to conform with Gymnasium standards. . By using Gym standards, 
-researchers and developers can leverage a common framework for algorithm development and benchmarking, streamlining the process of implementing and testing new control strategies in data center cooling optimization.
+AlphaDataCenterCooling-Gym is the  [Farama-Foundation Gymnasium](https://gymnasium.farama.org/) (formerly OpenAI-Gym ）environment for the AlphaDataCenterCooling Docker Service.
+It adapts the RESTful API from AlphaDataCenterCooling Docker Service to conform with Gymnasium standards. By using Gym standards, 
+researchers can leverage a common framework for algorithm development and benchmarking, streamlining the process of implementing and testing new control strategies in data center cooling optimization.
 
 ## Structure
 - `/testing`:  This directory includes notebooks for gym interaction.
