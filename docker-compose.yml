@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  alphaDataCenterCooling:
+    image: datacenter
+    build:
+      context: .
+    volumes:
+      - ./restapi.py:${APP_PATH}/restapi.py
+      - ./testcase.py:${APP_PATH}/testcase.py
+      - ./config.py:${APP_PATH}/config.py
+      - ./utils.py:${APP_PATH}/utils.py
+      - ./Resources:${APP_PATH}/Resources/     
+      - ./Resources/AlphaDataCenterCooling_FMU.fmu:${APP_PATH}/Resources/AlphaDataCenterCooling_FMU.fmu
+    ports:
+      - 127.0.0.1:5000:5000
