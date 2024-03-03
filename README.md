@@ -8,7 +8,7 @@ offering a standardized environment for applying and testing various control alg
 
 ## Overview
 
-<img src="docs/figs/schematic_diagram.png" width="900" />
+<img src="docs/figs/figure.svg" width="900" />
 
 ## Structure
 - `/AlphaDataCenterCooling_Gym`: This folder contains the gym environment for the AlphaDataCenterCooling.
