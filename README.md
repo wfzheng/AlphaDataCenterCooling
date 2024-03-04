@@ -7,7 +7,11 @@ Operates within a Docker container for consistent, reproducible simulations.
 offering a standardized environment for applying and testing various control algorithms, specifically designed for optimizing data center cooling strategies.
 
 ## Overview
-
+AlphaDataCenterCooling is an open-source virtual testbed specifically designed to facilitate the development and 
+evaluation of control strategies for data center cooling systems. This virtual testbed is built using Python and Modelica, 
+and it is wrapped using the standardized interface of Farama-Foundation Gymnasium (previously known as OpenAI Gym). 
+The Modelica model of the cooling system is constructed based on the architecture and the annual historical operational 
+data of a real data center's cooling system.
 <img src="docs/figs/figure.svg" width="900" />
 
 ## Structure
